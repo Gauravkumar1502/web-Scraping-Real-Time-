@@ -1,0 +1,28 @@
+body{
+    margin: 20px;
+    /* background: linear-gradient(to top bottom, #6102fa 0%, #9eadf1 100%);    */
+    /* background: #0D0D0D; */
+    /* background-image: linear-gradient(to bottom, #E1A2B8 ,#9F2BC1); */
+    /* background-image: linear-gradient(to bottom, #c31432 ,#240b36); */
+}
+
+table, tr, th, td{
+    border: 1px solid;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    Justify-content: center;
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+}
+.update{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    color: #0D0D0D;
+    text-shadow:2px 2px 4px rgb(7, 7, 7) ;
+    font-size: 20px;
+}

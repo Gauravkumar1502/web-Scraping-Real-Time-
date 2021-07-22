@@ -1,0 +1,19 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "webScraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gaurav",
+  "license": "ISC",
+  "keywords": [
+    "webScraping"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jsdom": "^16.6.0"
+  }
+}
